@@ -3,57 +3,202 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>도겸이 첫 생일</title>
+<title>김도겸 첫돌 초대장</title>
 
-<style>
-body{
-    margin:0;
-    background:#efe7df;
-    font-family:'Malgun Gothic',sans-serif;
-    text-align:center;
-}
-
-.container{
-    max-width:500px;
-    margin:auto;
-    background:white;
-    min-height:100vh;
-    box-shadow:0 0 20px rgba(0,0,0,.1);
-}
-
-img{
-    width:100%;
-    display:block;
-}
-
-h1{
-    color:#8c6a46;
-    padding-top:25px;
-}
-
-p{
-    color:#666;
-    line-height:1.8;
-    padding:0 20px 30px;
-}
-</style>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500;600&family=Pretendard:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-<div class="container">
+<section class="hero">
 
-<h1>도겸이 첫 생일🤎</h1>
+<div class="hero-inner">
 
-<p>
-소중한 분들과 함께<br>
-도겸이의 첫 생일을 축하하고 싶습니다.
+<p class="small-title">1ST BIRTHDAY</p>
+
+<h1>도겸이의 첫 생일을 맞이합니다.</h1>
+
+<img src="main.jpg" class="main-photo">
+
+<p class="parents">
+아빠 김무성 · 엄마 김옥화
 </p>
 
-<img src="invitation.jpg">
+<p class="date">
+2026.08.08 SAT PM 06:00
+</p>
+
+<p class="place">
+포마레웨딩홀(구 티파니웨딩홀)<br>
+4층 도담홀
+</p>
 
 </div>
+
+</section>
+
+<section class="invite">
+
+<h2>초대합니다</h2>
+
+<p>
+
+사랑과 축복 속에서 자란 도겸이가
+어느덧 첫 번째 생일을 맞이하게 되었습니다.
+
+처음이라 서툴렀던 모든 순간들이
+웃음과 행복으로 채워져
+소중한 추억이 되었습니다.
+
+그동안 보내주신 따뜻한 관심과 사랑에
+진심으로 감사드립니다.
+
+도겸이의 첫 번째 생일을 함께 축복해 주신다면
+저희 가족에게 오래도록 잊지 못할
+행복한 선물이 될 것입니다.
+
+바쁘시더라도 귀한 걸음 하시어
+도겸이의 첫걸음을 함께 축하해 주세요.
+
+</p>
+
+</section>
+<section class="info">
+
+<h2>행사 안내</h2>
+
+<div class="card">
+
+<p><strong>📅 일시</strong><br>
+2026년 8월 8일 (토) 오후 6시</p>
+
+<p><strong>📍 장소</strong><br>
+포마레웨딩홀(구 티파니웨딩홀)<br>
+4층 도담홀</p>
+
+</div>
+
+</section>
+
+<section class="contact">
+
+<h2>연락하기</h2>
+
+<div class="button-wrap">
+
+<a class="call-btn" href="tel:01037058183">
+👨 아빠 김무성
+</a>
+
+<a class="call-btn" href="tel:01023663146">
+👩 엄마 김옥화
+</a>
+
+</div>
+
+</section>
+
+<section class="account">
+
+<h2>마음 전하실 곳</h2>
+
+<p class="account-text">
+
+참석이 어려우신 분들을 위해<br>
+마음을 전하실 곳을 안내드립니다.
+
+</p>
+
+<div class="account-box">
+
+<p>
+
+<strong>카카오뱅크</strong><br><br>
+
+3333-04-3156182<br>
+
+예금주 김옥화
+
+</p>
+
+<button onclick="copyAccount()">
+
+계좌번호 복사하기
+
+</button>
+
+</div>
+
+</section>
+
+<section class="gallery">
+
+<h2>도겸이 성장앨범</h2>
+
+<div class="gallery-wrap">
+
+<img src="photo1.jpg">
+
+<img src="photo2.jpg">
+
+<img src="photo3.jpg">
+
+<img src="photo4.jpg">
+
+<img src="photo5.jpg">
+
+<img src="photo6.jpg">
+
+</div>
+
+</section>
+<section class="location">
+
+<h2>오시는 길</h2>
+
+<div class="card">
+
+<p>
+포마레웨딩컨벤션 (구 티파니웨딩홀)<br>
+경상북도 포항시 남구 희망대로 815<br>
+4층 도담홀
+</p>
+
+<div class="map-buttons">
+
+<a class="map-btn"
+href="https://map.kakao.com/link/search/포마레웨딩컨벤션"
+target="_blank">
+🗺️ 카카오맵
+</a>
+
+<a class="map-btn"
+href="https://map.naver.com/v5/search/포마레웨딩컨벤션"
+target="_blank">
+📍 네이버지도
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p class="footer-text">
+2026.08.08<br><br>
+도겸이의 첫 번째 생일에<br>
+함께해 주셔서 감사합니다. 🤎
+</p>
+
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
