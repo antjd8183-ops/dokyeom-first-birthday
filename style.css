@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f6f1eb;
+    color:#555;
+    font-family:'Pretendard',sans-serif;
+    line-height:1.8;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+.hero{
+    background:#fff;
+    padding:40px 20px;
+    text-align:center;
+}
+
+.hero-inner{
+    max-width:500px;
+    margin:auto;
+}
+
+.small-title{
+    color:#b89b76;
+    letter-spacing:4px;
+    font-size:13px;
+    margin-bottom:15px;
+}
+
+.hero h1{
+    font-family:'Noto Serif KR',serif;
+    color:#6d563d;
+    font-size:30px;
+    line-height:1.5;
+    margin-bottom:30px;
+}
+
+.main-photo{
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+}
+
+.parents{
+    margin-top:25px;
+    font-size:18px;
+    color:#666;
+}
+
+.date{
+    margin-top:10px;
+    color:#a27d5b;
+    font-weight:600;
+}
+
+.place{
+    margin-top:8px;
+    color:#777;
+}
+
+section{
+    padding:60px 25px;
+}
+
+section h2{
+    text-align:center;
+    color:#7d6043;
+    margin-bottom:30px;
+    font-size:28px;
+    font-family:'Noto Serif KR',serif;
+}
+
+.invite p{
+    text-align:center;
+    white-space:pre-line;
+    font-size:17px;
+}
+
+.card{
+    background:white;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+.card p{
+    margin-bottom:20px;
+}
+
+.button-wrap{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.call-btn,
+.map-btn{
+    display:inline-block;
+    background:#b5936e;
+    color:white;
+    text-decoration:none;
+    padding:14px 24px;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.call-btn:hover,
+.map-btn:hover{
+    transform:translateY(-3px);
+}
+
+.account-box{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.account-box button{
+    margin-top:20px;
+    background:#8f6d4e;
+    color:white;
+    border:none;
+    padding:14px 30px;
+    border-radius:50px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.gallery-wrap{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+}
+
+.gallery-wrap img{
+    border-radius:16px;
+    aspect-ratio:1/1;
+    object-fit:cover;
+}
+
+.map-buttons{
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+footer{
+    padding:50px 20px;
+    text-align:center;
+    color:#999;
+    font-size:15px;
+}
